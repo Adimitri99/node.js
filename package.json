@@ -1,5 +1,17 @@
 {
   "dependencies": {
-    "express": "^4.21.1"
-  }
+    "express": "^4.21.1",
+    "sequelize": "^6.37.5"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Aprendizado em node",
+  "main": "express/index.js",
+  "scripts": {
+    "app": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
